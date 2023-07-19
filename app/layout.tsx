@@ -94,7 +94,9 @@ export default function RootLayout({
       <body
         className={`flex flex-col w-full h-full scroll-smooth bg-semiblack ${plus_jakarta_sans.variable} ${open_sans.variable}}`}
       >
-        {children}
+        <main className="flex flex-col w-full h-full">
+          {children}
+        </main>
       </body>
     </html>
   );

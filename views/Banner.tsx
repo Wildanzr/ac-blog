@@ -20,7 +20,7 @@ const Banner = () => {
           Get Started
         </motion.button>
       </div>
-      <div className="h-screen bg-center bg-cover bg-banner-hero brightness-50" />
+      <div className="w-full h-full bg-center bg-cover bg-banner-hero brightness-50" />
     </div>
   );
 };
