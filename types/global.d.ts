@@ -3,6 +3,12 @@
 export { };
 
 declare global {
+    interface TextProps {
+        text: string;
+        color?: string;
+        center?: boolean;
+        other?: string;
+    }
     interface WrapperProps {
         id?: string;
         baseProps?: string;
@@ -14,7 +20,6 @@ declare global {
 
     interface SectionProps {
         id?: string;
-        background?: string;
         children?: React.ReactNode;
     }
 }

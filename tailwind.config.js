@@ -20,6 +20,7 @@ module.exports = {
       },
       fontFamily: {
         jakarta: ["var(--font-jakarta)"],
+        "open": ["var(--font-open)"],
       },
     },
   },
