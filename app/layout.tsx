@@ -79,10 +79,10 @@ const open_sans = localFont({
       path: "../public/fonts/OpenSans-ExtraBold.ttf",
       weight: "800",
       style: "extra-bold",
-    }
+    },
   ],
   variable: "--font-open",
-})
+});
 
 export default function RootLayout({
   children,
@@ -94,9 +94,7 @@ export default function RootLayout({
       <body
         className={`flex flex-col w-full h-full scroll-smooth bg-semiblack ${plus_jakarta_sans.variable} ${open_sans.variable}}`}
       >
-        <main className="flex flex-col w-full h-full">
-          {children}
-        </main>
+        {children}
       </body>
     </html>
   );
