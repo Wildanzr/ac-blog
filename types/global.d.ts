@@ -22,4 +22,9 @@ declare global {
         id?: string;
         children?: React.ReactNode;
     }
+
+    interface CTAButtonProps {
+        href?: string;
+        textProp: TextProps;
+    }
 }
